@@ -10,7 +10,7 @@ export interface PriceUpdate {
 
 export const fetchRealtimePrices = async (): Promise<PriceUpdate> => {
   // Khởi tạo AI instance ngay tại thời điểm gọi để đảm bảo lấy đúng API Key từ môi trường
-  const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+  const ai = new GoogleGenAI({ apiKey: CONFIG.GEMINI.API_KEY });
 
   try {
     const response = await ai.models.generateContent({
