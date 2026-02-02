@@ -9,7 +9,7 @@ export const CONFIG = {
   GEMINI: {
     // Không hardcode API Key ở đây, SDK sẽ lấy từ process.env.API_KEY
     MODEL: 'gemini-3-flash-preview',
-    API_KEY:'AIzaSyDhgaqfa_cDWdEpl-nqIGtcdD4YotZgI-Q',
+    API_KEY:'AIzaSyCwpTozQ9hycKSxEhOadXCfUFqk7t8E-YI',
     SYSTEM_INSTRUCTION: 'Bạn là một chuyên gia tư vấn tài chính cá nhân, hỗ trợ phân tích danh mục đầu tư.',
   },
 
