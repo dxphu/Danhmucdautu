@@ -1,0 +1,5 @@
+{
+  "name": "FinSmart Rebalance Dashboard",
+  "description": "A modern financial management dashboard that calculates optimal asset rebalancing for a 40M VND monthly investment based on target allocations.",
+  "requestFramePermissions": []
+}
